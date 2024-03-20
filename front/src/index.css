@@ -66,3 +66,35 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+ }
+ .todo-item p {
+  color: #888;
+ }
+
+ #root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row-reverse;
+ }
+
+ .todo-list {
+  display: flex;
+  flex-direction: column-reverse;
+ }
+
+ .App {
+  width: 50%;
+ }
+
+ .todo-item {
+  margin-top:0.5rem;
+ }
